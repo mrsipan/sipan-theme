@@ -113,6 +113,7 @@
    `(isearch ((t (:background ,pink+2 :foreground ,white))))
    `(isearch-fail ((t (:background ,orange+1))))
 
+   `(highlight ((t (:background ,grey30))))
    `(lazy-highlight ((t (:background ,grey+1 :foreground ,green+1))))
    `(link ((t (:foreground ,blue-2))))
 
