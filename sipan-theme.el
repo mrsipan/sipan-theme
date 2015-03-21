@@ -47,8 +47,11 @@
       (grey-3 "#99968b")
       (grey70 "grey70")
       (grey10 "grey10")
+      (grey20 "grey20")
       (grey30 "grey30")
+      (grey40 "grey40")
       (grey50 "grey50")
+      (grey60 "grey60")
       (grey+1 "#595959")
       (grey-2 "#707070")
       (grey-5 "#eeeedd")
@@ -242,7 +245,25 @@
    ;; trailing whitespace
    `(trailing-whitespace ((t (:background ,white-3))))
 
+   ;; ElScreen
+   `(elscreen-tab-background-face ((t (:background "Grey30"))))
+   `(elscreen-tab-control-face ((t (:background "Grey30" :foreground "#ffffba"))))
+   `(elscreen-tab-current-screen-face ((t (:background "#151515" :foreground "#ffffba" :underline t))))
+   `;;(elscreen-tab-current-screen-face ((t (:background "#151515" :foreground "#c3ff86" :underline t))))
+   `(elscreen-tab-other-screen-face ((t (:background "Gray30" :foreground "#ffffba"))))
+
+   ;; company
+   `(company-preview ((t (:foreground ,grey60 :underline nil :weight normal))))
+   `(company-preview-common ((t (:inherit company-preview))))
+   `(company-tooltip ((t (:background ,grey20 :foreground ,yellow-4))))
+   `(company-tooltip-selection ((t (:background ,green-1 :foreground "black"))))
+   `(company-tooltip-common ((((type x)) (:inherit company-tooltip :weight normal)) (t (:inherit company-tooltip))))
+   `(company-tooltip-common-selection ((((type x)) (:inherit company-tooltip-selection :weight normal)) (t (:inherit company-tooltip-selection))))
+   `(company-scrollbar-fg ((t (:background ,grey-3))))
+   `(company-scrollbar-bg ((t (:background ,grey+2))))
+
    ;; sh-mode
    `(sh-heredoc ((t (:foreground "yellow" :weight normal))))))
+
 
 (provide-theme 'sipan)
