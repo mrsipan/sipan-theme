@@ -262,6 +262,8 @@
    `(company-scrollbar-fg ((t (:background ,grey-3))))
    `(company-scrollbar-bg ((t (:background ,grey+2))))
 
+   ;; ace-jump
+   `(ace-jump-face-foreground ((t (:foreground ,yellow-2))))
    ;; sh-mode
    `(sh-heredoc ((t (:foreground "yellow" :weight normal))))))
 
