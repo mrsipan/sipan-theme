@@ -203,8 +203,10 @@
    `(flymake-errline ((t (:foreground "OrangeRed" :underline t))))
 
    ;; flyspell
-   `(flyspell-duplicate ((t (:foreground "#a28ed1" :underline t))))
-   `(flyspell-incorrect ((t (:foreground "#ddc8ff" :underline t))))
+   `(flyspell-duplicate
+     ((t (:weight normal :foreground "#a28ed1" :underline nil))))
+   `(flyspell-incorrect
+     ((t (:weight normal :foreground "#ddc8ff" :underline nil))))
 
    ;; vc-diff colors
    `(diff-file-header ((t (:foreground "#93e0e3"))))
