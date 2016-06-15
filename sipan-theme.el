@@ -158,7 +158,7 @@
    `(region ((t (:background ,grey+1))))
    `(shadow ((t (:foreground ,grey70))))
 
-   `(show-paren-match ((t (:bold t :background ,grey30 :foreground ,pink+2))))
+   `(show-paren-match ((t (:normal t :background ,grey30 :foreground ,pink+2))))
    `(show-paren-mismatch ((t (:background ,purple+1  :foreground ,pink+2))))
 
      ;; rpm-mode
